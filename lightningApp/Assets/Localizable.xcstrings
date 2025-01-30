@@ -1,0 +1,100 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "app_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lightning"
+          }
+        }
+      }
+    },
+    "bad_request_message" : {
+      "comment" : "Something went wrong at API Request, try again later.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something went wrong at API Request, try again later."
+          }
+        }
+      }
+    },
+    "Capacity: %@" : {
+
+    },
+    "Channels: %@" : {
+
+    },
+    "City: %@" : {
+
+    },
+    "Country: %@" : {
+
+    },
+    "First Seen: %@" : {
+
+    },
+    "generic_error" : {
+      "comment" : "Something went wrong.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something went wrong."
+          }
+        }
+      }
+    },
+    "invalid_search" : {
+
+    },
+    "invalid_url" : {
+      "comment" : "Something went wrong at the request, please contact the developer.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something went wrong at the request, please contact the developer."
+          }
+        }
+      }
+    },
+    "not_found" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No results were found."
+          }
+        }
+      }
+    },
+    "PK: %@" : {
+
+    },
+    "too_many_requests" : {
+      "comment" : "Too many requests, try again later.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Too many requests, try again later."
+          }
+        }
+      }
+    },
+    "Updated at: %@" : {
+
+    }
+  },
+  "version" : "1.0"
+}

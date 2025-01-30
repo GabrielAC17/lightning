@@ -1,7 +1,7 @@
 import Foundation
 
 class LightningService {
-    func listShows() async throws -> [LightningModel] {
+    func listLightnings() async throws -> [LightningModel] {
         let finalString = Config.lightningURL
         guard let url = URL(string: finalString) else {
             throw ApiError.invalidUrl
