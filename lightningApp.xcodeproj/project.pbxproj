@@ -29,9 +29,30 @@
 		C2CECC522D4BB34700D777EC /* lightningAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lightningAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C2CECC8A2D4BC52700D777EC /* Exceptions for "lightningApp" folder in "lightningAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets/Mock/JsonMock.swift,
+				Assets/Mock/MockLightning.json,
+				Config/Config.swift,
+				Models/LightningModel.swift,
+				Screens/List/LightningCellView.swift,
+				Screens/List/ListView.swift,
+				Screens/List/ListViewModel.swift,
+				Service/ApiError.swift,
+				Service/LightningService.swift,
+			);
+			target = C2CECC472D4BB34700D777EC /* lightningAppTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C2CECC3A2D4BB34600D777EC /* lightningApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C2CECC8A2D4BC52700D777EC /* Exceptions for "lightningApp" folder in "lightningAppTests" target */,
+			);
 			path = lightningApp;
 			sourceTree = "<group>";
 		};

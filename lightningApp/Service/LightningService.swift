@@ -1,6 +1,10 @@
 import Foundation
 
-class LightningService {
+protocol LightningServiceProtocol {
+    func listLightnings() async throws -> [LightningModel]
+}
+
+class LightningService: LightningServiceProtocol {
     func listLightnings() async throws -> [LightningModel] {
         let finalString = Config.lightningURL
         guard let url = URL(string: finalString) else {

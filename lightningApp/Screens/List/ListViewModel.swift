@@ -9,8 +9,10 @@ extension ListView {
         public var errorMessage: String?
         public var isLoading: Bool = false
         
+        private var service: LightningServiceProtocol
         
-        init() {
+        init(_ service: LightningServiceProtocol = LightningService()) {
+            self.service = service
             Task {
                 await self.listLightnings()
             }
@@ -21,7 +23,7 @@ extension ListView {
             do {
                 defer { self.isLoading = false }
                 self.errorMessage = nil
-                let result = try await LightningService().listLightnings()
+                let result = try await self.service.listLightnings()
                 self.items = result
             } catch let error {
                 self.errorMessage = ApiError.getErrorMessage(from: error)
